@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=Happy+Monkey&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@700&family=Open+Sans:wght@400;700&display=swap");
 html {
   box-sizing: border-box;
   background-color: #F2F2F2;
@@ -110,4 +112,199 @@ body {
     display: inline-block;
     max-width: 163px;
   }
+}
+.hero {
+  padding-top: 44px;
+  margin-bottom: 168px;
+}
+
+.hero__itim {
+  background-image: url(../../img/img2.png);
+  background-repeat: no-repeat;
+  padding-left: 85px;
+}
+
+.hero__inner {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding-top: 137px;
+  margin-bottom: 24px;
+}
+
+.hero__taxt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  max-width: 445px;
+  padding-bottom: 137px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__itim {
+    background-image: url(../../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 118px 48px 118px 48px;
+  }
+  .hero {
+    padding-top: 53px;
+    margin-bottom: 144px;
+  }
+  .hero__inner {
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+  }
+  .hero__taxt {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 398px;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 735px) {
+  .hero__itim {
+    background-image: url(../../img/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 111px 24px 87px 24px;
+  }
+  .hero {
+    padding-top: 40px;
+    margin-bottom: 120px;
+  }
+  .hero__inner {
+    font-size: 28px;
+    line-height: 28px;
+    padding-top: 0;
+  }
+  .hero__taxt {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 279px;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+}
+.our__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.our__inner {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.our__img2 {
+  display: none;
+}
+
+.our__taxt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  max-width: 540px;
+}
+
+@media screen and (max-width: 1030px) {
+  .our__container {
+    margin-bottom: 144px;
+  }
+  .our__img {
+    max-width: 281px;
+    width: 100%;
+    height: 470px;
+    border-radius: 10px;
+    background-size: 100%;
+  }
+  .our__inner {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+  .our__taxt {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 339px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .our__container {
+    margin-bottom: 144px;
+    flex-direction: column;
+  }
+  .our__img {
+    display: none;
+  }
+  .our__img2 {
+    display: inline-block;
+    max-width: 100%;
+    background-size: 100%;
+    width: 600px;
+  }
+  .our__item {
+    text-align: center;
+  }
+  .our__inner {
+    font-size: 32px;
+    line-height: 48px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+  }
+  .our__taxt {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 100%;
+  }
+}
+.quality__container {
+  background-image: url(../../img/qualit-bgi.png);
+  z-index: -1;
+  background-repeat: no-repeat;
+  padding-left: 85px;
+  height: 474px;
+  display: flex;
+  gap: 125px;
+  margin-bottom: 168px;
+}
+
+.quality__inner {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding-top: 88px;
+}
+
+.quality__taxt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  max-width: 540px;
+  margin-top: 32px;
+  padding-bottom: 176px;
+}
+
+.quality__inner-img {
+  z-index: 5;
+  margin-bottom: 88px;
 }/*# sourceMappingURL=main.css.map */
