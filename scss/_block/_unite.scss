@@ -1,0 +1,123 @@
+.unite__container {
+    max-width: 1045px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.unite__item{
+    text-align: start;
+}
+
+.unite__inner {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.unite__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.unite__imge {
+    margin-top: 72px;
+    width: 51px;
+    height: 51px;
+}
+
+.unite__btm {
+    margin-top: 44px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+
+}
+
+.unite__taxt {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+@media screen and (max-width:1000px) {
+    .unite__container {
+        width: 100%;
+        margin-bottom: 144px;
+        margin-left: 20px;
+    }
+    
+    
+    .unite__inner {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .unite__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .unite__imge {
+        margin-top: 72px;
+        width: 51px;
+        height: 51px;
+    }
+    
+    .unite__btm {
+        margin-top: 49px;
+        font-size: 24px;
+        line-height: 36px;
+    
+    }
+    
+    .unite__taxt {
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .unite__container {
+        width: 100%;
+        margin-bottom: 120px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    
+    .unite__inner {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .unite__item{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .unite__btm {
+        margin-top: 48px;
+        font-size: 28px;
+        line-height: 36px;
+    
+    }
+    
+    .unite__taxt {
+        margin-top: 22px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .unite__hero+ .unite__hero{
+        margin-top: 80px;
+    }
+}
