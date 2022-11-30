@@ -351,6 +351,7 @@ body {
     width: 573px;
     height: 320px;
     bottom: 328px;
+    transform: translate(-50%, -50%);
   }
 }
 @media screen and (max-width: 890px) {
